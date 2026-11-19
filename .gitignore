@@ -1,0 +1,17 @@
+.env
+*.log
+back/vendor/
+back/.phpunit.cache/
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins*
+mobile/android/key.properties
+mobile/android/*.jks
+ia/node_modules/
+video/node_modules/
+video/bruto/
+video/frames/
+dist/
+.idea/
+.vscode/*
+!.vscode/mcp.json

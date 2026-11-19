@@ -1,0 +1,6 @@
+vendor
+tests
+.phpunit.cache
+phpunit.xml
+.env
+*.log
