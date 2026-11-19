@@ -32,7 +32,7 @@ final class Cliente
             $erros['nome'] = 'Informe o nome (3 a 150 caracteres).';
         }
         $telefone = preg_replace('/\D/', '', (string) ($dados['telefone'] ?? '')) ?? '';
-        if (strlen($telefone) < 10 || strlen($telefone) > 10) {
+        if (strlen($telefone) < 10 || strlen($telefone) > 11) {
             $erros['telefone'] = 'Telefone com DDD (10 ou 11 dígitos).';
         }
         $uf = isset($dados['uf']) && $dados['uf'] !== '' ? mb_strtoupper(trim((string) $dados['uf'])) : null;
